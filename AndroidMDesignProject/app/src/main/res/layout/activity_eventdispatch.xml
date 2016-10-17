@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.liuy.androidmdesignproject.enventdispatch.RootViewGourp
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.liuy.androidmdesignproject.enventdispatch.MyViewGroup1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.liuy.androidmdesignproject.enventdispatch.MyView1
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MyView1" />
+
+            <com.liuy.androidmdesignproject.enventdispatch.MyView2
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MyView2" />
+        </com.liuy.androidmdesignproject.enventdispatch.MyViewGroup1>
+
+        <com.liuy.androidmdesignproject.enventdispatch.MyViewGroup2
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.liuy.androidmdesignproject.enventdispatch.MyView3
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MyView3" />
+
+            <com.liuy.androidmdesignproject.enventdispatch.MyView4
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MyView4" />
+
+        </com.liuy.androidmdesignproject.enventdispatch.MyViewGroup2>
+
+    </com.liuy.androidmdesignproject.enventdispatch.RootViewGourp>
+
+</LinearLayout>

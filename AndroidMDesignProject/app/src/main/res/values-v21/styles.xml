@@ -1,0 +1,58 @@
+<resources>
+
+    <!--5.0级以上支持沉浸式状态栏样式改变-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Theme.AppCompat.Light.NoActionBar-->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!-- toolbar（actionbar）颜色 -->
+        <!--<item name="colorPrimary">#4876FF</item>-->
+        <!--&lt;!&ndash; 状态栏颜色 &ndash;&gt;-->
+        <item name="colorPrimaryDark">#4876FF</item>
+        <!--&lt;!&ndash; 窗口的背景颜色 &ndash;&gt;-->
+        <!--<item name="android:windowBackground">@android:color/white</item>-->
+        <!--&lt;!&ndash;去掉系统默认的标题栏&ndash;&gt;-->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!--<item name="actionOverflowButtonStyle">@style/Action_OverflowButtonStyle</item>-->
+        <!--<item name="actionOverflowMenuStyle">@style/LYJMenuStyle</item>-->
+
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:fitsSystemWindows">true</item>-->
+        <!--<item name="android:clipToPadding">true</item>-->
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:clipToPadding">true</item>
+        <!--<item name="android:statusBarColor">#4876FF</item>-->
+
+    </style>
+
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.Light">
+        <!-- customize the color palette -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Action_OverflowButtonStyle" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@mipmap/bottom_shop_0</item>
+    </style>
+
+    <!--http://blog.csdn.net/afanyusong/article/details/51149112-->
+    <style name="LYJMenuStyle" parent="@style/Widget.AppCompat.Light.PopupMenu">
+        <!--是否覆盖标题-->
+        <item name="overlapAnchor">false</item>
+        <!--弹出菜单背景色为标题栏的背景色-->
+        <item name="android:popupBackground">@drawable/shape1</item>
+        <!--弹出菜单与标题栏的垂直间距-->
+        <item name="android:dropDownVerticalOffset">20dip</item>
+
+    </style>
+
+</resources>
